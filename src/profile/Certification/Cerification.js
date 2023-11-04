@@ -2,7 +2,7 @@ import React from 'react'
 
 function Cerification() {
     return (
-        <main className='bg-black'>
+        <main className='bg-black' id='Certification'>
             <section className='d-flex flex-column justify-content-center align-items-center min-vh-100'>
                 <div>
                     <p className='h1 text-center text-light'>Certification</p>

@@ -1,3 +1,11 @@
 .aboutBg{
     background-image: url('https://images.unsplash.com/photo-1620120966883-d977b57a96ec?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
+.cards{
+    background-color: rgba(0, 0, 0, 0.653);
+    border-radius: 2%;
+}
+.rockyImg{
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
