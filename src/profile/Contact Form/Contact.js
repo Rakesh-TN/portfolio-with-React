@@ -16,35 +16,34 @@ function Contact() {
             });
     };
     return (
-        <main className='d-flex flex-column justify-content-center align-items-center min-vh-100 bgcontactimg'>
+        <main className='d-flex flex-column justify-content-center align-items-center min-vh-100 bgcontactimg' id='Contact'>
             <div>
                 <p className='text-light h1 p-2'>Get in Touch</p>
             </div>
-            <div className='card p-3 bg-black'>
+            <div className='card p-4 bg-black'>
+                <div className='d-flex justify-content-center'>
                 <form ref={form} onSubmit={sendEmail}>
                     <tr>
-                        <td><label className='text-light'>Name</label></td>
-                        <td><input type="text" name="from_name" className='form-label' /></td>
+                        <td><label className='text-light'>Name:</label></td>
+                        <td><input type="text" name="from_name" className='form-label' required/></td>
                     </tr>
                     <tr>
-                        <td><label className='text-light'>Email </label></td>
-                        <td><input type="email" name="from_email" className='form-label' /></td>
+                        <td><label className='text-light'>Email:</label></td>
+                        <td><input type="email" name="from_email" className='form-label' required/></td>
                     </tr>
                     <tr>
-                        <td><label className='text-light'>Message </label></td>
-                        <td><textarea name="message" className='form-label' /></td>
+                        <td valign='top'><label className='text-light messageTitle'>Message: </label></td>
+                        <td><textarea name="message" className='form-label messageBox' required /></td>
                     </tr>
                     <tr>
                         <td colSpan="2">
                             <div className='text-center'>
-                                <input className='btn btn-success mt-5 ' type="submit" value="Send" />
+                                <input className='btn btn-success' type="submit" value="Send" />
                             </div>
-                        </td>
-                        <td>
-
                         </td>
                     </tr>
                 </form>
+                </div>
             </div>
         </main>
     )

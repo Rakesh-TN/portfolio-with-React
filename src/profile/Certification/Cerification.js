@@ -5,42 +5,48 @@ function Cerification() {
         <main className='bg-black' id='Certification'>
             <section className='d-flex flex-column justify-content-center align-items-center min-vh-100'>
                 <div>
-                    <p className='h1 text-center text-light'>Certification</p>
                     <div className='container p-5'>
+                    <p className='h1 text-center text-light'>Certification</p>
                         <div className='d-flex row'>
-                            <div className='col-lg-4 my-2'>
+                            <div className='col-lg-4 col-md-6 my-2'>
                                 <div className='card '>
-                                    <img src={require('./Assets/Tech Fountion.jpg')} className='img-fluid' />
+                                    <img src={require('./Assets/Tech Fountion.jpg')} alt='No Image' className='img-fluid' />
                                 </div>
                             </div>
-                            <div className='col-lg-4 my-2'>
+                            <div className='col-lg-4 col-md-6 my-2'>
                                 <div className='card'>
-                                    <img src={require('./Assets/HTML.jpg')} className='img-fluid' />
+                                    <img src={require('./Assets/HTML.jpg')} alt='No Image' className='img-fluid' />
                                 </div>
                             </div>
-                            <div className='col-lg-4 my-2'>
+                            
+                            <div className='col-lg-4 col-md-6 my-2'>
                                 <div className='card'>
-                                    <img src={require('./Assets/css certificate.jpg')} className='img-fluid' />
+                                    <img src={require('./Assets/Programming with JavaScript_page-0001.jpg')} alt='No Image' className='img-fluid' />
                                 </div>
                             </div>
-                            <div className='col-lg-4 my-2'>
+                            <div className='col-lg-4 col-md-6 my-2'>
                                 <div className='card'>
-                                    <img src={require('./Assets/Programming with JavaScript_page-0001.jpg')} className='img-fluid' />
+                                    <img src={require('./Assets/React Basics_page-0001.jpg')} alt='No Image' className='img-fluid' />
                                 </div>
                             </div>
-                            <div className='col-lg-4 my-2'>
+                            <div className='col-lg-4 col-md-6 my-2'>
                                 <div className='card'>
-                                    <img src={require('./Assets/React Basics_page-0001.jpg')} className='img-fluid' />
+                                    <img src={require('./Assets/Front-end-developer.jpg')} alt='No Image' className='img-fluid' />
                                 </div>
                             </div>
-                            <div className='col-lg-4 my-2'>
+                            <div className='col-lg-4 col-md-6 my-2'>
                                 <div className='card'>
-                                    <img src={require('./Assets/Front-end-developer.jpg')} className='img-fluid' />
+                                    <img src={require('./Assets/Introduction to Mobile Development_page-0001.jpg')} alt='No Image' className='img-fluid' />
                                 </div>
                             </div>
-                            <div className='col-lg-4 my-2'>
+                            <div className='col-lg-4 col-md-6 my-2'>
                                 <div className='card'>
-                                    <img src={require('./Assets/Introduction to Mobile Development_page-0001.jpg')} className='img-fluid' />
+                                    <img src={require('./Assets/react basic certificate.jpg')} alt='No Image' className='img-fluid' />
+                                </div>
+                            </div>
+                            <div className='col-lg-4 col-md-6 my-2'>
+                                <div className='card'>
+                                    <img src={require('./Assets/css certificate.jpg')} alt='No Image' className='img-fluid' />
                                 </div>
                             </div>
                         </div>

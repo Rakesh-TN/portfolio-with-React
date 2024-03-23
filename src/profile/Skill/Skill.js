@@ -12,12 +12,13 @@ function Skill() {
               <div className='d-flex row'>
                 <div className='col-lg-4'>
                   <div>
-                    <img src={require('./Assets/Rakesh TN Passport Size Photo.jpg')} className='img-fluid rockyImg' />
+                    <img src={require('./Assets/Rakesh TN Passport Size Photo.jpg')} alt='No Image' className='img-fluid rockyImg' />
                   </div>
                 </div>
                 <div className='col-lg-8'>
-                  <div className='p-5'>
-                    <p className='text-light'>Hi, I'm Rakesh</p>
+                  <div className='p-3 text-light'>
+                    <p>Hello! I'm Rakesh, a web developer with a strong passion for crafting digital experiences. My journey into web development began with a fascination for problem-solving and a love for creating beautiful, functional websites. I thrive on the challenges of turning complex ideas into user-friendly, interactive solutions.</p>
+                    <p>I specialize in front-end and back-end development, working with a variety of technologies, including HTML, CSS, JavaScript, and React.Js. I'm driven by a desire to stay up-to-date with the latest industry trends and to create responsive and visually appealing websites.</p>
                   </div>
                 </div>
               </div>
