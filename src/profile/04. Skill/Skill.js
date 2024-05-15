@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
 import './Skill.css'
 
 function Skill() {
+  useEffect(()=> {
+    AOS.init({duration: 3000})
+  },[])
   return (
     <main className='aboutBg' id='About'>
       <div className='d-flex flex-column justify-content-center align-items-center min-vh-100'>
-        <div>
+        <div data-aos='fade-right'>
           <p className='h1 text-center text-light'>About</p>
           <div className='d-flex justify-content-center'>
             <div className='cards w-50 m-3'>

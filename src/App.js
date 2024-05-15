@@ -1,10 +1,11 @@
 import React from 'react'
-import Home from './profile/Home/Home';
-import About from './profile/About/About';
-import Skill from './profile/Skill/Skill';
-import Navbar1 from './profile/Navigation Bar/Navbar';
-import Cerification from './profile/Certification/Cerification';
-import Contact from './profile/Contact Form/Contact';
+import Navbar1 from './profile/01. Navigation Bar/Navbar';
+import Home from './profile/02. Home/Home';
+import About from './profile/03. About/About';
+import Skill from './profile/04. Skill/Skill';
+import Cerification from './profile/05. Certification/Cerification';
+import Contact from './profile/06. Contact Form/Contact';
+import 'aos/dist/aos.css'
 
 function App() {
     return (

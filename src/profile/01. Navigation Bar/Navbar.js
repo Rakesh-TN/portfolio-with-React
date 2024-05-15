@@ -21,9 +21,8 @@ function Navbar1() {
                             <NavDropdown title="Project " id="basic-nav-dropdown">
                                 <NavDropdown.Item href="https://subtle-toffee-c03964.netlify.app/" target='_blank'>E-Commerce Site</NavDropdown.Item>
                                 <NavDropdown.Item href="https://weather-finder-369.netlify.app/" target='_blank'>Weather Site</NavDropdown.Item>
+                                <NavDropdown.Item href="https://effervescent-squirrel-4ab9f2.netlify.app/" target='_blank'>BMI Calculator</NavDropdown.Item>
                                 <NavDropdown.Item href="https://rakeshprofilecard.netlify.app/" target='_blank'>Own LinkTree</NavDropdown.Item>
-                                <NavDropdown.Item href="" target='_blank'>Weather Site</NavDropdown.Item>
-
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>

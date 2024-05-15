@@ -1,5 +1,7 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import emailjs from '@emailjs/browser';
+import AOS from 'aos'
+
 import './Contact.css'
 
 function Contact() {
@@ -15,10 +17,15 @@ function Contact() {
                 console.log(error.text);
             });
     };
+
+    useEffect(()=> {
+        AOS.init({duration: 3000})
+      },[])
     return (
         <main className='d-flex flex-column justify-content-center align-items-center min-vh-100 bgcontactimg' id='Contact'>
+            <section data-aos='fade-right'>
             <div>
-                <p className='text-light h1 p-2'>Get in Touch</p>
+                <p className='text-light text-center h1 p-2'>Get in Touch</p>
             </div>
             <div className='card p-4 bg-black'>
                 <div className='d-flex justify-content-center'>
@@ -45,6 +52,7 @@ function Contact() {
                 </form>
                 </div>
             </div>
+            </section>
         </main>
     )
 }

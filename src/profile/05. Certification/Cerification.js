@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+
 
 function Cerification() {
+    useEffect(()=> {
+        AOS.init({duration: 3000})
+      },[])
     return (
         <main className='bg-black' id='Certification'>
             <section className='d-flex flex-column justify-content-center align-items-center min-vh-100'>
                 <div>
-                    <div className='container p-5'>
+                    <div className='container p-5' data-aos='fade-right'>
                     <p className='h1 text-center text-light'>Certification</p>
                         <div className='d-flex row'>
                             <div className='col-lg-4 col-md-6 my-2'>
