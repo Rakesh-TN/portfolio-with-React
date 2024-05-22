@@ -51,6 +51,11 @@ function Cerification() {
                             </div>
                             <div className='col-lg-4 col-md-6 my-2'>
                                 <div className='card'>
+                                    <img src={require('./Assets/React Native Certificate_page-0001.jpg')} alt='No Image' className='img-fluid' />
+                                </div>
+                            </div>
+                            <div className='col-lg-4 col-md-6 my-2'>
+                                <div className='card'>
                                     <img src={require('./Assets/css certificate.jpg')} alt='No Image' className='img-fluid' />
                                 </div>
                             </div>
