@@ -10,7 +10,7 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_jdm3kkc', 'template_vyf69no', form.current, 'wPkRCg-AS-14oUwsD')
+        emailjs.sendForm('service_2s04uyc', 'template_51l68yl', form.current, 'GiHmsqMsCjQruvL3c')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -32,15 +32,15 @@ function Contact() {
                 <form ref={form} onSubmit={sendEmail}>
                     <tr>
                         <td><label className='text-light'>Name:</label></td>
-                        <td><input type="text" name="from_name" className='form-label' required/></td>
+                        <td><input type="text" name="user_name" className='form-label' required/></td>
                     </tr>
                     <tr>
                         <td><label className='text-light'>Email:</label></td>
-                        <td><input type="email" name="from_email" className='form-label' required/></td>
+                        <td><input type="email" name="user_mail" className='form-label' required/></td>
                     </tr>
                     <tr>
                         <td valign='top'><label className='text-light messageTitle'>Message: </label></td>
-                        <td><textarea name="message" className='form-label messageBox' required /></td>
+                        <td><textarea name="user_message" className='form-label messageBox' required /></td>
                     </tr>
                     <tr>
                         <td colSpan="2">
